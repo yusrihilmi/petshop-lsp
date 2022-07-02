@@ -24,7 +24,7 @@
       type="image/png" 
       href="../favicon.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Admin Panel - Tokopekita</title>
+    <title>Admin Panel - PetshopCool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -33,13 +33,13 @@
     <link rel="stylesheet" href="assets/css/metisMenu.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 	
     <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- others css -->
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/default-css.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -62,23 +62,23 @@
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-							<li class="active"><a href="index.php"><span>Home</span></a></li>
-							<li><a href="../"><span>Kembali ke Toko</span></a></li>
+							<li class="active"><a href="index.php"><i class="ti-world"></i><span>Home</span></a></li>
+							<li><a href="../"><i class="ti-home"></i><span>Kembali ke Toko</span></a></li>
 							<li>
-                                <a href="manageorder.php"><i class="ti-dashboard"></i><span>Kelola Pesanan</span></a>
+                                <a href="manageorder.php"><i class="ti-dashboard"></i><span>Daftar Pemesanan</span></a>
                             </li>
 							<li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout"></i><span>Kelola Toko
                                     </span></a>
                                 <ul class="collapse">
-                                    <li><a href="produk.php">Produk</a></li>
-									<li><a href="pembayaran.php">Metode Pembayaran</a></li>
+                                    <li><a href="produk.php"><i class="ti-shopping-cart"></i><span>Produk</a></li>
+									<li><a href="pembayaran.php"><i class="ti-money"></i><span>Metode Pembayaran</a></li>
                                 </ul>
                             </li>
-							<li><a href="customer.php"><span>Kelola Pelanggan</span></a></li>
-							<li><a href="user.php"><span>Kelola Staff</span></a></li>
+							<li><a href="customer.php"><i class="ti-user"></i><span>Daftar Pelanggan</span></a></li>
+							<li><a href="user.php"><i class="ti-id-badge"></i><span>Daftar Staff</span></a></li>
                             <li>
-                                <a href="../logout.php"><span>Logout</span></a>
+                                <a href="../logout.php"><i class="ti-power-off"></i><span>Logout</span></a>
                                 
                             </li>
                             
@@ -158,7 +158,7 @@
                         <div class="col-md-4">
                             <div class="single-report mb-xs-30">
                                 <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa fa-user"></i></div>
+                                    <div class="icon"><i class="ti-face-smile"></i></div>
                                     <div class="s-report-title d-flex justify-content-between">
                                         <h4 class="header-title mb-0">Pelanggan</h4>
                                     </div>
@@ -172,7 +172,7 @@
                         <div class="col-md-4">
                             <div class="single-report">
                                 <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa fa-book"></i></div>
+                                    <div class="icon"><i class="ti-shopping-cart-full"></i></div>
                                     <div class="s-report-title d-flex justify-content-between">
                                         <h4 class="header-title mb-0">Pesanan</h4>
                                     </div>
@@ -185,7 +185,7 @@
 						<div class="col-md-4">
                             <div class="single-report mb-xs-30">
                                 <div class="s-report-inner pr--20 pt--30 mb-3">
-                                    <div class="icon"><i class="fa fa-link"></i></div>
+                                    <div class="icon"><i class="ti-link"></i></div>
                                     <div class="s-report-title d-flex justify-content-between">
                                         <h4 class="header-title mb-0">Konfirmasi Pembayaran</h4>
                                     </div>
@@ -221,8 +221,6 @@
                                 <div class="market-status-table mt-4">
                                     Anda masuk sebagai <strong><?php echo $_SESSION['name'] ?></strong>
 									<br>
-									<p>Pada halaman admin, Anda dapat menambah kategori produk, mengelola produk, 
-									mengelola user dan admin, melihat konfirmasi pembayaran</p>
                                 </div>
                             </div>
                         </div>

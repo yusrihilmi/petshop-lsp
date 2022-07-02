@@ -87,11 +87,10 @@ if(isset($_POST['addprod'])){
 <!DOCTYPE html>
 <html>
 <head>
-<title>Tokopekita - Produk</title>
+<title>PetshopCool - Produk</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Tokopekita, Richard's Lab" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
@@ -103,6 +102,7 @@ if(isset($_POST['addprod'])){
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
@@ -124,7 +124,7 @@ if(isset($_POST['addprod'])){
 <div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>Selamat Datang!</p>
+				<img src="images/PetshopCool.svg" width="200px" height="50px" />
 			</div>
 			<div class="agile-login">
 				<ul>
@@ -244,8 +244,6 @@ if(isset($_POST['addprod'])){
 	</div>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-
-<!-- top-header and slider -->
 <!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -263,20 +261,5 @@ if(isset($_POST['addprod'])){
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-
-<!-- main slider-banner -->
-<script src="js/skdslider.min.js"></script>
-<link href="css/skdslider.css" rel="stylesheet">
-<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
-						
-			jQuery('#responsive').change(function(){
-			  $('#responsive_wrapper').width(jQuery(this).val());
-			});
-			
-		});
-</script>	
-<!-- //main slider-banner --> 
 </body>
 </html>

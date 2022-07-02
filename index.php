@@ -23,6 +23,7 @@ include 'dbconnect.php';
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet" type="text/css">
 <link href='//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
@@ -110,18 +111,18 @@ include 'dbconnect.php';
 	<!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
-		<h2>Produk Kami</h2>
+		<h2>Membuat Hewan Anda Terlihat Lebih Cool</h2>
 			<div class="grid_3 grid_5">
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
 							<div class="agile-tp">
-								<h5>Penawaran Terbaik Minggu Ini
+								<h5>Produk Terbaik Saat Ini
 								<?php
 								if(!isset($_SESSION['name'])){
 									
 								} else {
-									echo 'Untukmu, '.$_SESSION['name'].'!';
+									echo 'Untukmu, '.$_SESSION['name'].' !';
 								}
 								?>
 								</h5>
@@ -137,9 +138,6 @@ include 'dbconnect.php';
 								<div class="col-md-4 top_brand_left">
 									<div class="hover14 column">
 										<div class="agile_top_brand_left_grid">
-											<div class="agile_top_brand_left_grid_pos">
-												<img src="images/offer.png" alt=" " class="img-responsive" />
-											</div>
 											<div class="agile_top_brand_left_grid1">
 												<figure>
 													<div class="snipcart-item block" >
@@ -168,6 +166,7 @@ include 'dbconnect.php';
 											</div>
 										</div>
 									</div>
+									<br>
 								</div>
 								<?php
 											}
@@ -187,22 +186,5 @@ include 'dbconnect.php';
 <!-- //top-brands -->
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-
-
-
-<!-- main slider-banner -->
-<script src="js/skdslider.min.js"></script>
-<link href="css/skdslider.css" rel="stylesheet">
-<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
-						
-			jQuery('#responsive').change(function(){
-			  $('#responsive_wrapper').width(jQuery(this).val());
-			});
-			
-		});
-</script>	
-<!-- //main slider-banner --> 
 </body>
 </html>

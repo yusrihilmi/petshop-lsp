@@ -13,7 +13,7 @@
       type="image/png" 
       href="../favicon.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kelola Pesanan - Tokopekita</title>
+    <title>Daftar Pemesanan - PetshopCool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -59,23 +59,23 @@
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-							<li><a href="index.php"><span>Home</span></a></li>
-							<li><a href="../"><span>Kembali ke Toko</span></a></li>
-							<li class="active">
-                                <a href="manageorder.php"><i class="ti-dashboard"></i><span>Kelola Pesanan</span></a>
+							<li class="active"><a href="index.php"><i class="ti-world"></i><span>Home</span></a></li>
+							<li><a href="../"><i class="ti-home"></i><span>Kembali ke Toko</span></a></li>
+							<li>
+                                <a href="manageorder.php"><i class="ti-dashboard"></i><span>Daftar Pemesanan</span></a>
                             </li>
 							<li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout"></i><span>Kelola Toko
                                     </span></a>
                                 <ul class="collapse">
-                                    <li><a href="produk.php">Produk</a></li>
-									<li><a href="pembayaran.php">Metode Pembayaran</a></li>
+                                    <li><a href="produk.php"><i class="ti-shopping-cart"></i><span>Produk</a></li>
+									<li><a href="pembayaran.php"><i class="ti-money"></i><span>Metode Pembayaran</a></li>
                                 </ul>
                             </li>
-							<li><a href="customer.php"><span>Kelola Pelanggan</span></a></li>
-							<li><a href="user.php"><span>Kelola Staff</span></a></li>
+							<li><a href="customer.php"><i class="ti-user"></i><span>Daftar Pelanggan</span></a></li>
+							<li><a href="user.php"><i class="ti-id-badge"></i><span>Daftar Staff</span></a></li>
                             <li>
-                                <a href="../logout.php"><span>Logout</span></a>
+                                <a href="../logout.php"><i class="ti-power-off"></i><span>Logout</span></a>
                                 
                             </li>
                             
@@ -134,7 +134,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-center">
-									<h2>Daftar Pesanan</h2>
+									<h2>Daftar Pemesanan</h2>
 								</div>
                                     <div class="data-tables datatable-dark">
 										 <table id="dataTable3" class="display" style="width:100%"><thead class="thead-dark">
